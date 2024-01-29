@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+.pro{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 20px;
+    flex: 1 1 250px;
+    justify-content: center;
+    font-family: 'Salsa';
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    align-items: center;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 4px;
+}
+.product img{
+    width: 95%;
+    height: 100%;
+}
+a{
+    border: 1px solid;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    background-color: rgb(204, 204, 204);
+    width: 250px;
+    text-align: center;
+}
